@@ -19,10 +19,13 @@ fib = {
   'number': 0
 }
 
+# result from fib(50)
 # 12,586,269,025
+
+# my results
 # 12,586,269,025
-# 12586269025
-# 1,125,899,906,842,623
+
+
 current = fib['number']
 previous = 1 
 
