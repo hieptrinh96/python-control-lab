@@ -12,3 +12,27 @@
 #      etc.
 
 # Hint: The next number is found by adding the two numbers before it
+
+# (n - 1) + (n - 2)
+fib = {
+  'term': 0,
+  'number': 0
+}
+
+# 12,586,269,025
+# 12,586,269,025
+# 12586269025
+# 1,125,899,906,842,623
+current = fib['number']
+previous = 1 
+
+while fib['term'] != 51:
+  if (fib['term'] == 0):
+    print(f'{fib}')
+  else:
+    acc = current + previous
+    previous = current
+    current = acc
+    fib['number'] = acc
+    print(f'{fib}')
+  fib['term']+=1

@@ -16,4 +16,4 @@ dog_age = input('Please enter your dog\'s age: ')
 if int(dog_age) <= 2:
   print(f'Your dog would be {int(dog_age) * 10} in human years')
 else:
-  print(f'Your dog would be {int(dog_age) * 7} in human years')
+  print(f'Your dog would be {(int(dog_age) - 2) * 7 + 20} in human years')
